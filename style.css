@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+@font-face {
+    font-family: Inter;
+    src: url(Inter-Regular.ttf);
+}
+
+.box {
+    width: 625px;
+    height: 625px;
+    background: #2321AF;
+    border-radius: 61px;
+}
+
+h6 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    color: #fff;
+    margin: 0 !important;
+    padding-top: 31px;
+}
+
+.inpcon {
+    width: 476px;
+    height: 69px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    margin-top: 70px;
+    margin-left: 74px;
+    padding-left: 30px;
+}
+
+.inpcon::placeholder {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #B0AAAA;
+}
+
+.result {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+    margin: 0;
+    margin-left: 74px;
+    margin-top: 40px;
+}
+
+.btn {
+    width: 390px;
+    height: 55px;
+    background: #299318;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    --timing: 2s;
+    --width: 150px;
+    cursor: pointer;
+    padding-block: 1em;
+    transition: all 0.2s;
+    margin-top: 71px;
+    margin-left: 117px;
+}
+  
+.btn:hover {
+    background-image: linear-gradient(to right, rgb(250, 82, 82), rgb(250, 82, 82) 16.65%, rgb(190, 75, 219) 16.65%, rgb(190, 75, 219) 33.3%, rgb(76, 110, 245) 33.3%, rgb(76, 110, 245) 49.95%, rgb(64, 192, 87) 49.95%, rgb(64, 192, 87) 66.6%, rgb(250, 176, 5) 66.6%, rgb(250, 176, 5) 83.25%, rgb(253, 126, 20) 83.25%, rgb(253, 126, 20) 100%, rgb(250, 82, 82) 100%);
+    animation: var(--timing) linear dance6123 infinite;
+    transform: scale(1.1) translateY(-1px);
+  }
+  
+@keyframes dance6123 {
+    to {
+      background-position: var(--width);
+    }
+  }
+  
+  
